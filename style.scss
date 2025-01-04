@@ -1,40 +1,83 @@
-.main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+// .main{
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
 
 
 
-    #box{
-    width: 400px;
-    height: 400px;
-    border: 1px solid black;
-    margin-bottom: 20px;
+//     #box{
+//     width: 400px;
+//     height: 400px;
+//     border: 1px solid black;
+//     margin-bottom: 20px;
 
-}
+// }
 
-.buttoneone{
-    .red{
-        background-color: rgb(234, 43, 43);
-    }
-    #blue{
-        background-color: rgb(83, 161, 250);
-        margin: 0px 5px;
-    }
-    #green{
-        background-color: rgb(17, 238, 154);
-    }
-    display: flex;
-    button{
-    // flex-basis: 33.33%;
-    color: white;
-    border: none;
-padding: 3px ;
+// .buttoneone{
+//     .red{
+//         background-color: rgb(234, 43, 43);
+//     }
+//     #blue{
+//         background-color: rgb(83, 161, 250);
+//         margin: 0px 5px;
+//     }
+//     #green{
+//         background-color: rgb(17, 238, 154);
+//     }
+//     display: flex;
+//     button{
+//     // flex-basis: 33.33%;
+//     color: white;
+//     border: none;
+// padding: 3px ;
 
     
 
-}
-margin: 50px;
+// }
+// margin: 50px;
+// }
+// }
+
+.main{
+
+display: grid;
+ flex-direction: column;
+        justify-content: center;
+        align-items: center;
+// grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 500px 200px;
+
+
+    .main1{
+        
+
+    border: 2px solid black;
+       
+
+height: 500px;
+width: 500px;
+
+    }
+    .main2{
+        display: flex;
+        //  flex-direction: ;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    img{
+    height: 140px;
+    width: 140px;
+    }
+    .item1{
+
+    }
+    .item2{
+
+    }
+    .item3{
+
+    }
+    
 }
 }
