@@ -1,18 +1,18 @@
-function okk1()
-{
-let pr=prompt("enter the price")
-let cop=confirm("and do u have copens")
-if(cop==true){
-pr=(pr)-(pr/10);
-alert(pr)
-}
+// function okk1()
+// {
+// let pr=prompt("enter the price")
+// let cop=confirm("and do u have copens")
+// if(cop==true){
+// pr=(pr)-(pr/10);
+// alert(pr)
+// }
 
-}
-
-
+// }
 
 
-okk1();
+
+
+// okk1();
 
 // function okk2(){
 // let pr=prompt("enter your exam score")
@@ -66,3 +66,23 @@ okk1();
     
 //   }
 //   okk5();
+
+
+let imga=()=>{
+let img=document.querySelector(".item1")
+
+img.innerHTML=`<img src='/image1.jpeg' width="500" height="500">`;
+}
+
+let imgb=()=>{
+let img=document.querySelector(".item1")
+
+img.innerHTML=`<img src='/image2.jpeg' width="500" height="500">`;
+}
+
+let imgc=()=>{
+let img=document.querySelector(".item1")
+
+img.innerHTML=`<img src='/image3.jpeg' width="500" height="500">`;
+}
+
